@@ -1,0 +1,69 @@
+Arguments: 
+  /usr/bin/node /home/joseph/.yarn/bin/yarn.js add AlaSQL
+
+PATH: 
+  /home/joseph/.yarn/bin:/home/joseph/.yarn/bin:/home/joseph/torch/install/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/joseph/.gem/ruby/2.4.0/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  10.7.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "bidpal-custom-reports",
+    "version": "1.0.0",
+    "description": "some extra reports for bidpal",
+    "author": "Joseph Hassell <hi@josephhassell.com>",
+    "license": "MIT",
+    "repository": "https://github.com/poster983/bidpal-custom-reports.git",
+    "scripts": {
+      "start": "polymer serve",
+      "build": "polymer build",
+      "lint": "polymer lint",
+      "test": "polymer test",
+      "test:integration": "polymer build # test that psk builds without error with the CLI"
+    },
+    "dependencies": {
+      "@polymer/app-layout": "^3.0.0-pre.15",
+      "@polymer/app-route": "^3.0.0-pre.15",
+      "@polymer/iron-flex-layout": "^3.0.0-pre.15",
+      "@polymer/iron-iconset-svg": "^3.0.0-pre.15",
+      "@polymer/iron-media-query": "^3.0.0-pre.15",
+      "@polymer/iron-pages": "^3.0.0-pre.15",
+      "@polymer/iron-selector": "^3.0.0-pre.15",
+      "@polymer/paper-icon-button": "^3.0.0-pre.15",
+      "@polymer/polymer": "^3.0.0",
+      "@webcomponents/webcomponentsjs": "^2.0.0"
+    },
+    "devDependencies": {
+      "polymer-cli": "^1.7.1",
+      "wct-browser-legacy": "^1.0.0"
+    },
+    "engines": {
+      "node": ">=8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/AlaSQL: Not found
+      at Request.params.callback [as _callback] (/home/joseph/.yarn/lib/cli.js:62098:18)
+      at Request.self.callback (/home/joseph/.yarn/lib/cli.js:123085:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/home/joseph/.yarn/lib/cli.js:124068:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/home/joseph/.yarn/lib/cli.js:123988:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1081:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
