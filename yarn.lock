@@ -495,7 +495,7 @@
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.2.tgz#80cdaa7225db2359130dfb2c6d9a3be1820020c3"
 
-"@polymer/iron-a11y-announcer@^3.0.0":
+"@polymer/iron-a11y-announcer@^3.0.0", "@polymer/iron-a11y-announcer@^3.0.0-pre.26":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-announcer/-/iron-a11y-announcer-3.0.2.tgz#730dd36ccb2e042ecd5160ba439c2bf2f8a97412"
   dependencies:
@@ -505,6 +505,15 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-3.0.1.tgz#2868ea72912d2007ffab4734684a91f5aac49b84"
   dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-autogrow-textarea@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-autogrow-textarea/-/iron-autogrow-textarea-3.0.1.tgz#0205d9c5ca16f3afd505f41e9037989707d59dce"
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/iron-behaviors@^3.0.0-pre.26":
@@ -547,6 +556,14 @@
   resolved "https://registry.yarnpkg.com/@polymer/iron-iconset-svg/-/iron-iconset-svg-3.0.1.tgz#568d6e7dbc120299dae63be3600aeba0d30ddbea"
   dependencies:
     "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-input@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-input/-/iron-input-3.0.1.tgz#dc866a25107f9b38d9ca4512dd9a3e51b78b4915"
+  dependencies:
+    "@polymer/iron-a11y-announcer" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/iron-location@^3.0.0-pre.26":
@@ -609,12 +626,33 @@
     "@polymer/paper-ripple" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
+"@polymer/paper-button@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-button/-/paper-button-3.0.1.tgz#f13b019137e3f6ccc4d04d0b1f27f4830ea5774d"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
 "@polymer/paper-icon-button@^3.0.0-pre.15":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@polymer/paper-icon-button/-/paper-icon-button-3.0.1.tgz#4af7129c82de9d4a0ad59d43e1d3d8ec93414fbf"
   dependencies:
     "@polymer/iron-icon" "^3.0.0-pre.26"
     "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-input@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-input/-/paper-input-3.0.1.tgz#ec711a131af74f10553bbf1125971ddc354afe62"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-autogrow-textarea" "^3.0.0-pre.26"
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-input" "^3.0.0-pre.26"
     "@polymer/paper-styles" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
@@ -3159,6 +3197,10 @@ figures@^2.0.0:
   resolved "https://registry.yarnpkg.com/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
   dependencies:
     escape-string-regexp "^1.0.5"
+
+file-drop-element@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/file-drop-element/-/file-drop-element-0.0.9.tgz#d05fb6d3ab5d8e58e1978256057d14a3bdfa0746"
 
 filename-regex@^2.0.0:
   version "2.0.1"
